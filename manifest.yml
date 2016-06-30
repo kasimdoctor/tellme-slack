@@ -1,0 +1,7 @@
+---
+applications:
+- name: tellme-java
+  buildpack: java_buildpack
+  memory: 512M
+  instances: 1
+  path: target/tellme-slack-1.0-SNAPSHOT.jar
